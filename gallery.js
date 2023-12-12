@@ -7,8 +7,8 @@ function upDate(previewPic){
        }
    
        function unDo(){
-        document.getElementById('image').style.backgroundImage = "url('original_img.jpg')";
-         document.getElementById('image').innerText = 'Original Text';
+        //document.getElementById('image').style.backgroundImage = "url('original_img.jpg')";
+         document.getElementById('image').innerText = 'Hover over an image below to display here.';
            
      }
        function onLoadFunction() {
